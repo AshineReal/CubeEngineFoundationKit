@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSCubeEngineFoundationKit'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Foundation framework'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ A foundation framework of CubeEngine
 
   s.source_files = 'CubeEngineFoundationKit/Classes/**/*'
   s.vendored_frameworks = 'CubeEngineFoundationKit/Frameworks/*.framework'
-  s.dependency = 'Genie'
+  s.dependency  'Genie'
   
   s.requires_arc = true
   s.xcconfig = {
